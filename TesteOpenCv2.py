@@ -7,7 +7,7 @@ mp_drawing = mp.solutions.drawing_utils
 # Inicializa a detecção de mãos
 hands = mp_hands.Hands()
 
-# Abre a câmera
+# Abre a câmera, se você estiver usando uma webcam/câmera alternativa, mude o parâmetro para 1
 cap = cv2.VideoCapture(0)
 
 while True:
